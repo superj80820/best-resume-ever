@@ -1,93 +1,244 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: 林宸右
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: 
+about: 熱愛後端服務
+position: Backend Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1996
+  location: 台灣
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
-
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: I.X Security
+  position: Back End Developer
+  timeperiod: 2019年11月 – 目前
+  description:
+    - "▪ 公司介紹：使用了無線金鑰認證和數據加密通信平台。結合Blockchain機制。提供最高等級的結合軟體以及實體金鑰且具有電子簽核效力的2FA二次身份登錄驗證，所有溝通的資料以及訊息都被加密保護而且做到資料不落地。"
+    - "▪ 開發維護與經驗："
+    - "▫ Microservice：將服務Docker容器化，並進行Kubernets與Istio的設計，改良通信介面至GRPC"
+    - "▫ File-Service: Node.js 配合 AWS-S3 來設計檔案系統"
+    - "▫ Chat-Service: Golang 配合 GRPC, Nats, SSE 來讓 APP 端與 GRPC-Web 端溝通"
+    - "▫ Push-Service: Node.js 配合 FCM/APNS 來推送手機通知"
+    - "▫ Auth-Service: Node.js 配合橢圓曲線非對稱簽章的驗證系統"
+    - "▫ Entrance-Service: Node.js 設計 Microservice 的統一進入點"
+    - "▫ Account-Service: Node.js 配合 DynamoDB, PostgreSQL, Redis 來設計用戶系統"
+    - "▫ AWS EC2, ELK: 對 Microservice 進行維運與管控"
+- company: Exosite
+  position: QA Engineer
+  timeperiod: 2018年7月 - 2019年7月
+  description:
+    - "▪ 公司介紹：一個Microservice的物連網平台，使用者可將硬體設備直接透過MQTT、Websocket、HTTP等協定將資料回報至此平台進行分析，並且透過網頁進行圖像化呈現。"
+    - "▪ 開發維護與經驗："
+    - "▫ Selenium"
+    - "▫ Robot Framework"
+    - "▫ Integration test"
+    - "▫ QA core auto testing tool"
+    - "▫ Agile, Scrum"
+    - "▫ Jenkins: 設計Regression test的pipeline"
+    - "▫ noVNC: 投射在Docker內部的Robot Framework畫面"
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: 國立勤益科技大學
+  timeperiod: 2016年 – 2019年
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
-
+- name: "- Programming - Golang"
+  level: 100
+- name: "- Programming - JavaScript, Node.js, TypeScript"
+  level: 100
+- name: "- Programming - Python"
+  level: 100
+- name: ---
+  level: 100
+- name: "- Backend - Kubernetes, Istio, Docker"
+  level: 100
+- name: "- Backend - Microservice, Monolithic"
+  level: 100
+- name: "- Backend - GRPC, GRPC-Web, RESTful API, Websocket, SSE, Nats"
+  level: 100
+- name: "- Backend - Express.js, Koa.js, Nest.js, Gin, Flask"
+  level: 100
+- name: "- Backend - Serverless"
+  level: 100
+- name: "- Backend - AWS EC2, ELK"
+  level: 100
+- name: ---
+  level: 100
+- name: "- DB - PostgreSQL, MySQL"
+  level: 100
+- name: "- DB - MongoDB, AWS DynamoDB, Redis"
+  level: 100
+- name: "- DB - AWS S3"
+  level: 100
+- name: ---
+  level: 100
+- name: "- DevOps - Jenkins, Gitlab-CI, Travis"
+  level: 100
+- name: "- DevOps - Agile, Scrum"
+  level: 100
+- name: "- DevOps - Swagger, Git, Linux"
+  level: 100
+- name: ---
+  level: 100
+- name: "- Frontend - Vue.js, React.js"
+  level: 100
+- name: "- Frontend - Redux, Vuex, Redux Observable, Rx.js, jQuery"
+  level: 100
+- name: "- Frontend - Electron.js"
+  level: 100
+- name: ---
+  level: 100
+- name: "- Security - 非對稱加密, 對稱加密"
+  level: 100
+- name: "- Security - 2FA authentication, JWT"
+  level: 100
+- name: ---
+  level: 100
+- name: "- Test - TDD, Jest.js"
+  level: 100
+- name: "- Test - Selenium, Robot Framework"
+  level: 100
+- name: ---
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
 projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: "2020 it 邦幫忙鐵人賽"
+  timeperiod: 2020年9月 – 目前
+  description:
+    - "▪ 文章網址：https://ithelp.ithome.com.tw/users/20122925/ironman/3537"
+    - "▪ 內容：介紹講解Golang、Kubernetes、Istio三者在Microservice平台的應用設計。"
+- name: "w3HexSchool 鼠年全馬鐵人挑戰 - 技術文章撰寫"
+  timeperiod: 2020年2月 – 目前
+  description:
+    - "▪ 文章網址：https://ithelp.ithome.com.tw/users/20122925/articles?page=1"
+    - "▪ 內容：這是由六角學院所推出的 w3HexSchool 活動，長期性寫文活動，透過此活動進而推動自我成長與幫助網路社群。"
+- name: "Side project: 鴨發Go! - 前端設計"
+  timeperiod: 2017年12月 – 目前
+  description:
+    - "▪ 原始碼：https://github.com/superj80820/Ahfargo-bus-bot"
+    - "▪ 內容：Line軟體結合市政公車系統 以提供公車查詢功能，不需要另外安裝App，即可查詢公車。"
+- name: "Side project: 髒沙發 - 前端設計"
+  timeperiod: 2017年6月 – 目前
+  description:
+    - "▪ 原始碼：https://github.com/superj80820/star-line-bot-admin"
+    - "▪ 獲獎：獲得Line today、電腦王阿達、新聞雲ETtoday、知名Youtuber報導，約10萬人使用。"
+    - "▪ 內容：透過Vue.js，使用AJAX與後端交互資料，提供一個介面供管理人員新增女星資料。"
+- name: "Side project: 髒沙發 - 後端設計"
+  timeperiod: 2017年6月 – 目前
+  description:
+    - "▪ 原始碼：https://github.com/superj80820/messfar-line-service"
+    - "▪ 獲獎：獲得Line today、電腦王阿達、新聞雲ETtoday、知名Youtuber報導，約10萬人使用。"
+    - "▪ 內容：持續成長中。透過人臉辨識查詢女星，後端原為Flask，現改為Express處理Line Webhook，並提供管理人員的API供Admin前端使用。"
 
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: 2019創想星球資訊科技創意大賽 - 第一名
+  description:
+    - "獲獎日期：2019年3月1日  頒獎單位朝陽科技大學 資訊管理系"
+    - "獎項說明：使用低成本的器具，將教室投影幕轉為觸控。"
+- name: LINE-HACK 2018 - 前十名
+  description:
+    - "獲獎日期：2018年9月1日  頒獎單位LINE官方"
+    - "獎項說明：參賽組別全約百組，三百人，物聯網與Line進行結合，提供更好的演講平台。"
+- name: 107勤益電子系專題競賽 - 第一名
+  description:
+    - "獲獎日期：2017年8月  頒獎單位勤益電子系"
+    - "獎項說明：使用低成本的器具，將教室投影幕轉為觸控。"
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: superj80820@gmail.com
+  phone: 0985698738
+  city: 台北
+  website: medium.com/髒桶子
+  github: superj80820
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `

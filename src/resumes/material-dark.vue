@@ -82,11 +82,6 @@
       <div class="skill" v-for="skill in person.skills" :key="skill.name">
         <div class="right">
           <span>{{skill.name}}&nbsp;</span>
-          <div class="progress">
-            <div class="determinate" :style="'width: '+skill.level+'%;'">
-              <i class="fa fa-circle"></i>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -117,11 +112,31 @@
         <div class="block-helper"></div>
         <h3 class="headline">{{experience.position}} - {{experience.company}}</h3>
           <div class="subheadline">{{experience.timeperiod}}</div>
-          <p class="info">
-            {{experience.description}}
+          <p v-for="item in experience.description" v-bind:key="item" class="info">
+            {{item}}
           </p>  
       </a>
     </div>
+
+    <div class="section-headline experience"> Project </div>
+    <div class="block" v-for="project in person.projects" :key="project.name">
+        <div class="block-helper"></div>
+        <h3 class="headline">{{project.name}}</h3>
+          <div class="subheadline">{{project.timeperiod}}</div>
+          <p v-for="item in project.description" v-bind:key="item" class="info">
+            {{item}}
+          </p>
+    </div>
+
+    <div class="section-headline"> Award </div>
+    <div class="block" v-for="contribution in person.contributions" :key="contribution.name">
+      <div class="block-helper"></div>
+      <h3 class="headline">{{contribution.name}}</h3>
+        <p v-for="item in contribution.description" v-bind:key="item" class="info">
+          {{item}}
+        </p>
+    </div>
+
     <div class="section-headline">{{ lang.education }}</div>
     <div class="block" v-for="education in person.education" :key="education.degree">
       <a
@@ -129,7 +144,7 @@
         <div class="block-helper"></div>
         <div class="headline">{{education.degree}}</div>
         <p class="info">
-          {{education.timeperiod}}, {{education.description}}
+          {{education.timeperiod}}
         </p>
       </a>
     </div>
@@ -288,7 +303,7 @@ h4 {
   display:flex;
   flex-direction:column;
   .experience {
-    margin-top: 40px;
+    margin-top: 5px;
   }
   .about {
     display: block;
@@ -319,10 +334,10 @@ h4 {
       font-weight:300;
     }
     .info {
-      font-size:14px;
+      font-size:5px;
       color:rgba(0,0,0,0.870588);
       margin-bottom:0;
-      padding-top:20px;
+      padding-top:2px;
     }
     .icon {
       width:16%;
