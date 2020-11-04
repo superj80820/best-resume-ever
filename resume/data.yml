@@ -189,6 +189,26 @@ skills:
   level: 100
 - name: 
   level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
+- name: 
+  level: 100
 projects:
 - name: "2020 it 邦幫忙鐵人賽"
   timeperiod: 2020年9月 – 目前
@@ -220,6 +240,13 @@ projects:
 
 
 contributions:
+- name: 2020 - MOPCON - 交流議程(UnConf) - 從 JavaScript 到 Golang 的啟發之旅
+  description:
+    - "獲獎日期：2020年10月"
+    - "獎項說明：講述JavaScript與Golang相似的設計理念，並從中啟發聽眾學習Golang的方向"
+    - "簡報: https://hackmd.io/@superj80820/BJkYXnguP"
+    - "影片: https://bit.ly/2TDCk6T"
+    - "文章: https://bit.ly/2IYJH6I"
 - name: 2019創想星球資訊科技創意大賽 - 第一名
   description:
     - "獲獎日期：2019年3月1日  頒獎單位朝陽科技大學 資訊管理系"

@@ -217,7 +217,14 @@ Side project: 髒沙發 - 後端設計
 查看專案 Side project: 髒沙發 - 後端設計查看專案`)}
 
 contributions:
-${translator.contributions(`2019創想星球資訊科技創意大賽 - 第一名
+${translator.contributions(`2020 - MOPCON - 交流議程(UnConf) - 從 JavaScript 到 Golang 的啟發之旅
+獲獎日期2020年10月
+獎項說明講述JavaScript與Golang相似的設計理念，並從中啟發聽眾學習Golang的方向
+簡報: https://hackmd.io/@superj80820/BJkYXnguP
+影片: https://www.youtube.com/playlist?list=PLGa-49FwUaKE9no265nUlZCivYXZILbgY
+文章: https://bit.ly/2IYJH6I
+
+2019創想星球資訊科技創意大賽 - 第一名
 獲獎日期2019年3月1日  頒獎單位朝陽科技大學 資訊管理系
 
 獎項說明使用低成本的器具，將教室投影幕轉為觸控。
@@ -243,6 +250,6 @@ lang: en
 \`
 `;
 
-fs.writeFile("data.yml", input, function(err) {
+fs.writeFile("data.yml", input, function (err) {
   if (err) return console.log(err);
 });
