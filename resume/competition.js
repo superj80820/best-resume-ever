@@ -33,7 +33,7 @@ Back End Developer
 ▫ AWS EC2, ELK: 對 Microservice 進行維運與管控
 收回
 Exosite
-QA Engineer
+QA Engineer Intern
 公司名稱Exosite 實習
 到職日期2018年7月 - 2019年7月
 任職期間1 年 1 個月

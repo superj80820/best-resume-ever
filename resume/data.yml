@@ -26,7 +26,7 @@ experience:
     - "▫ Account-Service: Node.js 配合 DynamoDB, PostgreSQL, Redis 來設計用戶系統"
     - "▫ AWS EC2, ELK: 對 Microservice 進行維運與管控"
 - company: Exosite
-  position: QA Engineer
+  position: QA Engineer Intern
   timeperiod: 2018年7月 - 2019年7月
   description:
     - "▪ 公司介紹：一個Microservice的物連網平台，使用者可將硬體設備直接透過MQTT、Websocket、HTTP等協定將資料回報至此平台進行分析，並且透過網頁進行圖像化呈現。"
